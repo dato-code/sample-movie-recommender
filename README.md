@@ -1,6 +1,6 @@
 # Movie Recommender Sample Project
 
-> This is a Dato sample for recommenders. Explore the [gallery](https://dato.com/learn/gallery/) to see other examples.  
+> This is a sample for recommenders. Explore the [gallery](https://turi.com/learn/gallery/) to see other examples.  
 
 This sample code shows how to build, evaluate, and deploy a
 recommender model for movies. You could use this model to power
@@ -9,27 +9,26 @@ recommender model for movies. You could use this model to power
 
 ## Get started
 
-1. Before you begin, make sure you have [installed GraphLab Create 1.9](https://dato.com/download/),
+1. Before you begin, make sure you have [installed GraphLab Create](https://turi.com/download/),
    a Python package for machine learning.
 
-2. [Download and extract the example code](https://github.com/dato-code/sample-movie-recommender/archive/master.zip)
+2. [Download and extract the example code](https://github.com/turi-code/sample-movie-recommender/archive/master.zip)
    to a directory on your machine, or clone it with the following command:
 
    ```bash
-   git clone http://github.com/dato-code/sample-movie-recommender
+   git clone http://github.com/turi-code/sample-movie-recommender
    cd sample-movie-recommender
    ```
 
 3. While in the `sample-movie-recommender` directory, run the following script
    to download the sample project data:
 
-   ```bash
-   python download_data.py
-   ```
+  ```bash
+  python download_data.py
+  ```
 
-4. Make sure you are working in a Python environment with GraphLab Create installed
-   (e.g. if you installed GraphLab Create using the Dato Launcher, you can use the Launcher to open a GraphLab Create Terminal).
-   Then, run the `movie_recommender.py` script to build and explore the recommender model on your machine:
+4. Making sure you are working in a Python environment with GraphLab Create installed,
+   run the `movie_recommender.py` script to build and explore the recommender model on your machine:
 
    ```bash
    python -i movie_recommender.py
@@ -45,7 +44,9 @@ recommender model for movies. You could use this model to power
    ```
 
    Once the model has been created, a browser window should open
-   to let you explore and interact with your recommender model.
+   to let you explore and interact with your recommender model:
+
+   [![Image of explore by item](/assets/explore_items.png)]()
 
 
 ## Learn More and Next Steps
@@ -54,17 +55,17 @@ Once you have the sample project running, you can try the following:
 
   - [Learn more about how the sample works](./LEARN_MORE.md#how-it-works)
   - [Try it on your own data set](./LEARN_MORE.md#use-your-own-data)
+  - [Use the model in your app](./LEARN_MORE.md#integrate-with-your-app)
 
 
 To find out more about building recommender models, check out the
-[user guide](https://dato.com/learn/userguide/recommender/introduction.html)
-or [API documentation](https://dato.com/products/create/docs/graphlab.toolkits.recommender.html).
+[user guide](https://turi.com/learn/userguide/recommender/introduction.html)
+or [API documentation](https://turi.com/products/create/docs/graphlab.toolkits.recommender.html).
 
 
 ## Troubleshooting
 
-If you are having trouble, please [create a Github Issue](https://github.com/dato-code/sample-movie-recommender/issues/new)
-or start a discussion on the [user forum](http://forum.dato.com/).
+If you are having trouble, please [create a Github Issue](https://github.com/turi-code/sample-movie-recommender/issues/new) or start a discussion on the [user forum](http://forum.turi.com/).
 
 
 ## Acknowledgements

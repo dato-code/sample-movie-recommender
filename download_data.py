@@ -38,5 +38,5 @@ if __name__ == '__main__':
 	# MovieLens dataset collected by the GroupLens Research Project at the University of Minnesota.
 	download("http://files.grouplens.org/datasets/movielens/ml-20m.zip", path.join(data_dir, 'ml-20m.zip'))
 	unzip(path.join(data_dir, 'ml-20m.zip'), data_dir)
-	download("https://s3-us-west-2.amazonaws.com/dato-samples/ml-20m/user_names.csv", path.join(data_dir, 'ml-20m/user_names.csv'))
-	download("https://s3-us-west-2.amazonaws.com/dato-samples/ml-20m/movie_urls.csv", path.join(data_dir, 'ml-20m/movie_urls.csv'))
+	download("https://static.turi.com/datasets/sample-movie-recommender/user_names.csv", path.join(data_dir, 'ml-20m/user_names.csv'))
+	download("https://static.turi.com/datasets/sample-movie-recommender/movie_urls.csv", path.join(data_dir, 'ml-20m/movie_urls.csv'))

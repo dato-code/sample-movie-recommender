@@ -2,7 +2,7 @@
 
 This document provides more detail about the sample movie recommender.
 You can learn more about building recommenders with GraphLab Create in
-our [user guide](https://dato.com/learn/userguide/recommender/introduction.html).
+our [user guide](https://turi.com/learn/userguide/recommender/introduction.html).
 
 ## How it works
 
@@ -44,13 +44,13 @@ items can cause the model to behave unpredictably.
 We also extract the `year` and `title` from the original `title` column, which
 combined these together, and parse the `genres` column by splitting on commas.
 
-See our [user guide on feature engineering](https://dato.com/learn/userguide/feature-engineering/introduction.html) for more discussion.
+See our [user guide on feature engineering](https://turi.com/learn/userguide/feature-engineering/introduction.html) for more discussion.
 
 
 ### Train Recommender Model
 
 Next, we randomly split the data into a training set and validation set.
-We use [`gl.recommender.create`](https://dato.com/products/create/docs/generated/graphlab.recommender.create.html)
+We use [`gl.recommender.create`](https://turi.com/products/create/docs/generated/graphlab.recommender.create.html)
 to build a recommender model on the training set with default settings.
 
 
@@ -65,7 +65,7 @@ and evaluating the model:
 ![Screenshot of Evaluation](/assets/evaluate-1.png)
 
 Find more information about how to use your model
-in the [user guide](https://dato.com/learn/userguide/recommender/using-trained-models.html).
+in the [user guide](https://turi.com/learn/userguide/recommender/using-trained-models.html).
 
 
 ## Use your own data
@@ -86,4 +86,4 @@ find that the model performance can be improved if you change or replace the
 data cleaning and feature extraction commands in `movie_recommender.py` with customized instructions.
 The ideal set of data transformations typically varies from dataset to dataset,
 so you will have to experiment a bit. For some suggestions,
-see our [user guide on feature engineering](https://dato.com/learn/userguide/feature-engineering/introduction.html).
+see our [user guide on feature engineering](https://turi.com/learn/userguide/feature-engineering/introduction.html).
